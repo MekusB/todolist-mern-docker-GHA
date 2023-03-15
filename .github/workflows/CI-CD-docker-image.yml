@@ -21,7 +21,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: meku2/todolistapp
         dockerfile: backend/Dockerfile
-        tags: latest
+        tags: v1.2
 
   build-and-deploy-front:
     name: Build and Deploy Front-end
@@ -37,4 +37,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: meku2/todolistapp
         dockerfile: frontend/Dockerfile
-        tags: latest
+        tags: v2.1.1
