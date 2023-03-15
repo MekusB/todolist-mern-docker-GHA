@@ -7,7 +7,6 @@ on:
     branches: [ "main" ]
 
 jobs:
-obs:
   build-and-deploy-back:
     name: Build and Deploy Back-end
     runs-on: ubuntu-latest
